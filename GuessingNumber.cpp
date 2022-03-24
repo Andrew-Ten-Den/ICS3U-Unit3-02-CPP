@@ -21,10 +21,9 @@ int main() {
     if (guessedNumber == SET_NUMBER) {
         // output
         std::cout << "You guessed correct!";
-        std::cout << "\nDone." << std::endl;
     } else if (guessedNumber != SET_NUMBER) {
         // output
         std::cout << "You guessed wrong!";
-        std::cout << "\nDone." << std::endl;
     }
+    std::cout << "\nDone." << std::endl;
 }
